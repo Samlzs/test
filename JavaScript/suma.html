@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./js/codigox.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </head>
+
+    <body>
+        <h1>Sumas de 2 Numeros</h1>
+        <form>
+            <input type="number" id="num1" name="num1" value="0" placeholder="Digite Numero 1" required/>
+            +-*/
+            <input type="number" id="num2" name="num2" value="0" placeholder="Digite Numero 2" required/>
+
+             <!-- <input type="hidden" id="operacion" name="operacion" value="suma"/> -->
+        
+        <select id="operacion" required>
+             <option value="">Selecciona operación</option>
+             <option value="suma">Sumar</option>
+             <option value="resta">Restar</option>
+             <option value="multiplicacion">Multiplicar</option>
+             <option value="division">Division</option>
+             </select> 
+            <br>  
+            
+        
+        </form>
+        <button onclick="operar()">Resolver</button>
+        <p id="resultado"></p>
+<hr>      
+        
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF8"/>
+    <meta keywords="Pintura, arte, Van Gogh, noche estrellada"/>
+    <meta name="theme-color" content="FF000"/>
+   <!-- <meta http-equiv="refresh" content="2;url=https://manz.dev/">-->
+    <title>Mi primera pagina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+    .miclase{
+        color: blue;
+        font-size: 20px;
+    }
+
+
+    #miid{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+
+    }
+
+    <!--Los id no se pueden repetir en ninguna etiqueta y van con #, mientras que las clases van con punto y
+     la misma clase puede estar en varias etiquetas -->
+
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 72px; color: rgb(42, 72, 156);">Hola mundo...</h1>
+    <img src="https://i.imgur.com/vBouTUR.jpeg" alt="foto de la obra la noche estrellada de Van Gogh" />
+    <p id="miid"> Primera pagina html usando Visual Studio code</p>
+    <br>
+    <p>Para poner un comentario es ctrl + la tecla de llave cerrando</p>
+    <br>
+    <p class="miclase"> El index es una palabra determinada que solo debemos usar para nombrar la pagina central de nuestros proyectos
+    </p>
+    <a href="nosotros.html"> Ir a nosotros </a>
+    <br>
+
+    <form>
+        <label>Nombre</label>
+        <input type="text" id="form-name" value="" placeholder="nombre" required/> <br>
+        <label>Cedula</label>
+        <input type="number" id="form-ced" name="cedula" value="" placeholder="cedula" required/> <br>
+        <label>E-mail</label>
+        <input type="email" id="form-em" name="e-mail" value="" placeholder="e-mail" required/> <br>
+        <label>Telefono</label>
+        <input type="tel" id="form-tel" name="telefono" value="" placeholder="Agrega tu numero de telefono" required/> <br>
+        <label>Caja de texto</label> <br>
+        <textarea id="cajatxt" name="cajadetexto"></textarea> <br><br>
+
+        <select id="" name="" required>
+            <option value="">Seleccione aquí</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="" selected>Seleccione aquí</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
+
+<!-- El index es una palabra determinada que solo debemos usar para nombrar la pagina central de nuestros proyectos  -->
+<!-- La etiqueta <p> </p> es para parrafo y la etiqueta <br> es para que haga un salto de linea  -->
+<!-- Para poner un comentario es ctrl + la tecla de llave cerrando -->
+

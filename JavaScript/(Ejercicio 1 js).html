@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Cambio de color</title>
+        <script>
+            let color = "red";
+            function cambiarColor() {
+                if (color === "red") {
+                    color = "blue";
+                } else if (color === "blue") {
+                    color = "green";
+                } else if (color === "green"){
+                    color= "gold"
+                } else if (color === "gold"){
+                    color= "black"
+                } else {
+                    color = "red";
+                }
+                document.body.style.backgroundColor = color;
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="cambiarColor()">Cambiar color</button>
+    </body>
+
+</hmtl>

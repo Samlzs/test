@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>
+    <link rel="shortcut icon" href="./Imagenes/flama.png">
+    <link rel="stylesheet" href="./Css/estilos.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body> 
+    <header>
+    <h1>Emojis</h1>
+
+    <div onclick="Ncl()" class="emoji">
+        🤍
+    </div>
+
+    <div onclick="Drgn()" class="emoji">
+        🐉
+    </div>
+
+    <div onclick="Fnx()" class="emoji">
+        🐦‍🔥
+    </div>
+
+    <!-- los parentesis vacios luego de los "nombres" es algo que sirve para invocar una función 
+    (en este caso en particular y quizas en similires(pero debo averiguar más))-->
+
+    <nav>
+        <button onclick="mensaje()" class="boton">Mensaje</button>
+
+    </nav>
+
+
+    </header>
+
+    <section>
+        <h2>Emojis 🤍🐉🐦‍🔥</h2>
+    </section>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
+
+<!-- div es para crear divisiones, mientras nav es para las barras de navegación-->
+<!--En el head van las meta etiquetas (configuracion de la pagina), mienstras que en el header que va dentro del cuerpo es como el encabezado-->
+<!--En el head van los links o las referencias que queramos poner-->
+<!-- mdn web docs es una gran biblioteca que contiene diferentes documentos de los diferentes lenguajes y otros -->

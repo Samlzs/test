@@ -1,0 +1,58 @@
+/* Aplicar selectores*/
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px;
+    background-color: rgb(154, 255, 205);
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 255, 26);
+}
+
+/* Selector de clase  */
+.emoji{
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+.boton{
+    background-color: rgb(81, 230, 141);
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+/* Pseudoclases */
+
+.boton:hover{
+    background-color: rgb(7, 158, 12);
+    color:black
+}
+
+/* hover te permite alterar alguna de las propiedades que tenga esa clase, ya sea el background-color, font-size */
+
+section{
+    position:fixed;
+    top: 50%;
+    left: 45%;
+    border: 3px solid rgb(50, 198, 50);
+    padding: 30px;
+    border-radius: 30px;
+    cursor:pointer;
+    box-shadow: 10px 10px 10px 10px green;
+   
+}
+
+section:hover{
+    transform: rotate(180deg);
+}
